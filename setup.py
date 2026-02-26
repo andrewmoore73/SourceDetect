@@ -8,6 +8,7 @@ AUTHOR ='Andrew Moore'
 VERSION = '1.0.0'
 REQUIRED = ['keras>=3.0',
             'tensorflow>=2.16',
+            'scikit-learn>=1.7',
             'numpy',
             'matplotlib',
             'photutils',
@@ -26,3 +27,4 @@ setup(
     install_requires=REQUIRED,
     include_package_data=True
 )
+
